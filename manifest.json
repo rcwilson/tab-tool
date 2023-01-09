@@ -1,0 +1,14 @@
+{
+    "name": "Tab Tool",
+    "description": "Rename Tab Titles for those multi-tab users",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
